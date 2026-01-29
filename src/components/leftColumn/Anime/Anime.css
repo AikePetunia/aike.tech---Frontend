@@ -1,0 +1,46 @@
+.animes-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+      overflow-y: hidden;
+    overflow-x: auto;
+  width: 100%;
+}
+
+.anime-item {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  padding: 6px;
+  border-radius: 8px;
+  align-items: flex-start;
+}
+
+.anime-item img {
+  flex-shrink: 0;
+  width: 100px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.anime-info {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.anime-info h4 {
+  margin: 0 0 8px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.anime-info p {
+  margin: 4px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+    white-space: nowrap;
+
+}

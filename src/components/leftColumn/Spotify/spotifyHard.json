@@ -1,0 +1,439 @@
+{
+  "playlists": [
+    {
+      "collaborative": false,
+      "description": "english trap and rap",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/1m9GH8I1n1eyyKHqcCDMBe"
+      },
+      "href": "https://api.spotify.com/v1/playlists/1m9GH8I1n1eyyKHqcCDMBe",
+      "id": "1m9GH8I1n1eyyKHqcCDMBe",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84c070c6a795df0edb24067766",
+          "width": null
+        }
+      ],
+      "name": "misplaced",
+      "owner": {
+        "display_name": "Aike",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/31hxlonhyxenlnefnn54betpckye"
+        },
+        "href": "https://api.spotify.com/v1/users/31hxlonhyxenlnefnn54betpckye",
+        "id": "31hxlonhyxenlnefnn54betpckye",
+        "type": "user",
+        "uri": "spotify:user:31hxlonhyxenlnefnn54betpckye"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAAX3/gNaPwVIKui42Qja/ZOge33p85",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/1m9GH8I1n1eyyKHqcCDMBe/tracks",
+        "total": 89
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:1m9GH8I1n1eyyKHqcCDMBe"
+    },
+    {
+      "collaborative": false,
+      "description": "international rock",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/05u0SImJJsz0kfQvCieJqc"
+      },
+      "href": "https://api.spotify.com/v1/playlists/05u0SImJJsz0kfQvCieJqc",
+      "id": "05u0SImJJsz0kfQvCieJqc",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84ba0c2fe064dc374157c2558c",
+          "width": null
+        }
+      ],
+      "name": "the best of",
+      "owner": {
+        "display_name": "Aike",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/31hxlonhyxenlnefnn54betpckye"
+        },
+        "href": "https://api.spotify.com/v1/users/31hxlonhyxenlnefnn54betpckye",
+        "id": "31hxlonhyxenlnefnn54betpckye",
+        "type": "user",
+        "uri": "spotify:user:31hxlonhyxenlnefnn54betpckye"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAAX6EqIdeNdf3SMUIW7FCyWWbh5wrJ",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/05u0SImJJsz0kfQvCieJqc/tracks",
+        "total": 111
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:05u0SImJJsz0kfQvCieJqc"
+    },
+    {
+      "collaborative": false,
+      "description": "korea and japan together!!",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/1V3Y1FclzoauMeZV8B38Bg"
+      },
+      "href": "https://api.spotify.com/v1/playlists/1V3Y1FclzoauMeZV8B38Bg",
+      "id": "1V3Y1FclzoauMeZV8B38Bg",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84e99ecd43cba536dade8ccaf4",
+          "width": null
+        }
+      ],
+      "name": "asia",
+      "owner": {
+        "display_name": "Aike",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/31hxlonhyxenlnefnn54betpckye"
+        },
+        "href": "https://api.spotify.com/v1/users/31hxlonhyxenlnefnn54betpckye",
+        "id": "31hxlonhyxenlnefnn54betpckye",
+        "type": "user",
+        "uri": "spotify:user:31hxlonhyxenlnefnn54betpckye"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAAMzLRPtmK5Az+DDt1rGOOlRdb1TyA",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/1V3Y1FclzoauMeZV8B38Bg/tracks",
+        "total": 47
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:1V3Y1FclzoauMeZV8B38Bg"
+    },
+    {
+      "collaborative": false,
+      "description": "yameii!!",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/5yffulNls98kksWRvR9SiR"
+      },
+      "href": "https://api.spotify.com/v1/playlists/5yffulNls98kksWRvR9SiR",
+      "id": "5yffulNls98kksWRvR9SiR",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84d3c72e354b2914fcf177b8d2",
+          "width": null
+        }
+      ],
+      "name": "hyper!",
+      "owner": {
+        "display_name": "Aike",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/31hxlonhyxenlnefnn54betpckye"
+        },
+        "href": "https://api.spotify.com/v1/users/31hxlonhyxenlnefnn54betpckye",
+        "id": "31hxlonhyxenlnefnn54betpckye",
+        "type": "user",
+        "uri": "spotify:user:31hxlonhyxenlnefnn54betpckye"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAAba1ZaSVwfo5wLXnDtyUpfDxXCy8c",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/5yffulNls98kksWRvR9SiR/tracks",
+        "total": 18
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:5yffulNls98kksWRvR9SiR"
+    },
+    {
+      "collaborative": false,
+      "description": "dafty songs",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/290VyWu66AB96gtriatWtn"
+      },
+      "href": "https://api.spotify.com/v1/playlists/290VyWu66AB96gtriatWtn",
+      "id": "290VyWu66AB96gtriatWtn",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84ae7591456863813195e96766",
+          "width": null
+        }
+      ],
+      "name": "*computer sounds*",
+      "owner": {
+        "display_name": "Aike",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/31hxlonhyxenlnefnn54betpckye"
+        },
+        "href": "https://api.spotify.com/v1/users/31hxlonhyxenlnefnn54betpckye",
+        "id": "31hxlonhyxenlnefnn54betpckye",
+        "type": "user",
+        "uri": "spotify:user:31hxlonhyxenlnefnn54betpckye"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAANv+03p1Zh9P4Pg1fKroB7454dRZ1",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/290VyWu66AB96gtriatWtn/tracks",
+        "total": 67
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:290VyWu66AB96gtriatWtn"
+    },
+    {
+      "collaborative": false,
+      "description": "pop?  ig, honestly idk",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/09pEdJEpnp8y5fzTjB2At6"
+      },
+      "href": "https://api.spotify.com/v1/playlists/09pEdJEpnp8y5fzTjB2At6",
+      "id": "09pEdJEpnp8y5fzTjB2At6",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da842583132675c37304e80d41c7",
+          "width": null
+        }
+      ],
+      "name": "aiki ",
+      "owner": {
+        "display_name": "Aike",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/31hxlonhyxenlnefnn54betpckye"
+        },
+        "href": "https://api.spotify.com/v1/users/31hxlonhyxenlnefnn54betpckye",
+        "id": "31hxlonhyxenlnefnn54betpckye",
+        "type": "user",
+        "uri": "spotify:user:31hxlonhyxenlnefnn54betpckye"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAAg73OC17QtoM6d/WLIFbq7RcfeVKg",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/09pEdJEpnp8y5fzTjB2At6/tracks",
+        "total": 140
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:09pEdJEpnp8y5fzTjB2At6"
+    },
+    {
+      "collaborative": false,
+      "description": "honestly, lofi 2.0",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/7m5l3i6QNjwwOVZpdycPqe"
+      },
+      "href": "https://api.spotify.com/v1/playlists/7m5l3i6QNjwwOVZpdycPqe",
+      "id": "7m5l3i6QNjwwOVZpdycPqe",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84c460ceb226d68ba88f72a97c",
+          "width": null
+        }
+      ],
+      "name": "Hip Hop Chill 90' ",
+      "owner": {
+        "display_name": "Aike",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/31hxlonhyxenlnefnn54betpckye"
+        },
+        "href": "https://api.spotify.com/v1/users/31hxlonhyxenlnefnn54betpckye",
+        "id": "31hxlonhyxenlnefnn54betpckye",
+        "type": "user",
+        "uri": "spotify:user:31hxlonhyxenlnefnn54betpckye"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAAZxJaCoeHHYyylh0x625iHnALm3xa",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/7m5l3i6QNjwwOVZpdycPqe/tracks",
+        "total": 201
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:7m5l3i6QNjwwOVZpdycPqe"
+    },
+    {
+      "collaborative": false,
+      "description": "and the universe said i love you because you are love",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/0UQCi7wqTjhsQ964gnbejJ"
+      },
+      "href": "https://api.spotify.com/v1/playlists/0UQCi7wqTjhsQ964gnbejJ",
+      "id": "0UQCi7wqTjhsQ964gnbejJ",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8406a4062d62308dd738b22e30",
+          "width": null
+        }
+      ],
+      "name": "the void feels great ",
+      "owner": {
+        "display_name": "Aike",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/31hxlonhyxenlnefnn54betpckye"
+        },
+        "href": "https://api.spotify.com/v1/users/31hxlonhyxenlnefnn54betpckye",
+        "id": "31hxlonhyxenlnefnn54betpckye",
+        "type": "user",
+        "uri": "spotify:user:31hxlonhyxenlnefnn54betpckye"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAADpOZnYs9ewZv+n466xo/152UwmvX",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/0UQCi7wqTjhsQ964gnbejJ/tracks",
+        "total": 91
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:0UQCi7wqTjhsQ964gnbejJ"
+    },
+    {
+      "collaborative": false,
+      "description": "nacional nomás 🏳️‍⚧️",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/5KIoCa9nam1u3KW2vbUFYE"
+      },
+      "href": "https://api.spotify.com/v1/playlists/5KIoCa9nam1u3KW2vbUFYE",
+      "id": "5KIoCa9nam1u3KW2vbUFYE",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84b0b4c068b3e75ff5cb45e6de",
+          "width": null
+        }
+      ],
+      "name": "lo mejor de",
+      "owner": {
+        "display_name": "Aike",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/31hxlonhyxenlnefnn54betpckye"
+        },
+        "href": "https://api.spotify.com/v1/users/31hxlonhyxenlnefnn54betpckye",
+        "id": "31hxlonhyxenlnefnn54betpckye",
+        "type": "user",
+        "uri": "spotify:user:31hxlonhyxenlnefnn54betpckye"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAABTAocMs6K6RBtKUjDimZKmOP/JigF",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/5KIoCa9nam1u3KW2vbUFYE/tracks",
+        "total": 176
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:5KIoCa9nam1u3KW2vbUFYE"
+    },
+    {
+      "collaborative": false,
+      "description": "i wish have someone to really die. And die for love.",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/0DsSZBsYoibpOKyQ3TgwUa"
+      },
+      "href": "https://api.spotify.com/v1/playlists/0DsSZBsYoibpOKyQ3TgwUa",
+      "id": "0DsSZBsYoibpOKyQ3TgwUa",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84ef928279f976488c8a038891",
+          "width": null
+        }
+      ],
+      "name": "vibing ",
+      "owner": {
+        "display_name": "Aike",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/31hxlonhyxenlnefnn54betpckye"
+        },
+        "href": "https://api.spotify.com/v1/users/31hxlonhyxenlnefnn54betpckye",
+        "id": "31hxlonhyxenlnefnn54betpckye",
+        "type": "user",
+        "uri": "spotify:user:31hxlonhyxenlnefnn54betpckye"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAAM8HJYCwhReQdShCM+QTvxHhw5NqO",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/0DsSZBsYoibpOKyQ3TgwUa/tracks",
+        "total": 45
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:0DsSZBsYoibpOKyQ3TgwUa"
+    },
+    {
+      "collaborative": false,
+      "description": "i love nu metal, really",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/4Iwl8jUYeNeHXQg189ozLp"
+      },
+      "href": "https://api.spotify.com/v1/playlists/4Iwl8jUYeNeHXQg189ozLp",
+      "id": "4Iwl8jUYeNeHXQg189ozLp",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8441ab0c3b64e05f8944a9bfd0",
+          "width": null
+        }
+      ],
+      "name": "chains",
+      "owner": {
+        "display_name": "Aike",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/31hxlonhyxenlnefnn54betpckye"
+        },
+        "href": "https://api.spotify.com/v1/users/31hxlonhyxenlnefnn54betpckye",
+        "id": "31hxlonhyxenlnefnn54betpckye",
+        "type": "user",
+        "uri": "spotify:user:31hxlonhyxenlnefnn54betpckye"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAAbPxov8SQB7c2VbqPV+Ub2akIJluE",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/4Iwl8jUYeNeHXQg189ozLp/tracks",
+        "total": 110
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:4Iwl8jUYeNeHXQg189ozLp"
+    },
+    {
+      "collaborative": false,
+      "description": "spanish trap and rap",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/1BmwrH8W5hECx3V7np0qKQ"
+      },
+      "href": "https://api.spotify.com/v1/playlists/1BmwrH8W5hECx3V7np0qKQ",
+      "id": "1BmwrH8W5hECx3V7np0qKQ",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8477ccf106af7ef9b73b318c9a",
+          "width": null
+        }
+      ],
+      "name": "desubicada ",
+      "owner": {
+        "display_name": "Aike",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/31hxlonhyxenlnefnn54betpckye"
+        },
+        "href": "https://api.spotify.com/v1/users/31hxlonhyxenlnefnn54betpckye",
+        "id": "31hxlonhyxenlnefnn54betpckye",
+        "type": "user",
+        "uri": "spotify:user:31hxlonhyxenlnefnn54betpckye"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAAsTAWZo7TEoUU9tD1kGbn1Gt5GMrE",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/1BmwrH8W5hECx3V7np0qKQ/tracks",
+        "total": 115
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:1BmwrH8W5hECx3V7np0qKQ"
+    }
+  ],
+  "total": 12,
+  "limit": 15,
+  "offset": 0
+}
