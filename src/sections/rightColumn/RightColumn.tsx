@@ -1,5 +1,5 @@
 import "./rightColumn.css";
-import Profile from "../../components/rightColumn/profile/Profile";
+import Profile from "../../components/rightColumn/ProfilePicture/Profile";
 
 export function WhoAmI() {
   return (

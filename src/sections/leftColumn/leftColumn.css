@@ -60,7 +60,7 @@
   bottom: 0;
   height: calc(100% - 150px);
   width: calc(100% - 24px);
-  background-image: url("../../components/leftColumn/aboutMe/backgrounds/setup.jpg");
+  background-image: url("../../components/leftColumn/AboutMe/backgrounds/setup.avif");
   background-size: cover;
   background-position: center;
   filter: blur(8px);
@@ -80,7 +80,7 @@
   bottom: 0;
   height: calc(100% - 150px);
   width: calc(100% - 24px);
-  background-image: url("../../components/leftColumn/aboutMe/backgrounds/stack.jpg");
+  background-image: url("../../components/leftColumn/AboutMe/backgrounds/stack.avif");
   background-size: cover;
   background-position: center;
   filter: blur(8px);
