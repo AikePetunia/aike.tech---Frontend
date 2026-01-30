@@ -12,6 +12,7 @@ If you think my website is cool, you can add the badge!
   <img alt="My page lol" class="badge" width="88" height="31" src="https://aike.tech/static/media/myWeb.a3faa4248519930d8313.gif">
 </a>
 
-This is my first time using TSX and doing a "project" by myself in a long time.
+This is my first time using typescript with react, and doing a "project" by myself in a long time. 
 
 Warning: this website has human errors.
+
