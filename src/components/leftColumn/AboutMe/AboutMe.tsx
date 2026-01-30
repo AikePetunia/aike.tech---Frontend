@@ -6,15 +6,7 @@ import { WhoAmI } from "./WhoAmI";
 
 import "./aboutMe.css";
 import { useCarousel } from "../../../hooks/useTouchSwipe";
-
-type aboutMeKind = "setup" | "stack" | "whoami";
-type Pane = {
-  kind: aboutMeKind;
-  node: React.ReactNode;
-  key: string;
-  idx?: number;
-  setIdx?: React.Dispatch<React.SetStateAction<number>>;
-};
+import type { Pane } from "../../../types/pane";
 
 export function AboutMe() {
   const isPhone = window.innerWidth <= 768;
@@ -38,7 +30,7 @@ export function AboutMe() {
 
     return list;
   }, []);
-  const containerRef = useRef<HTMLDivElement | null>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   const { idx, setIdx, handleButtons, handleTouchEnd, handleTouchStart } =
     useCarousel(panes);
@@ -105,11 +97,11 @@ function Rotator({
   setIdx,
 }: {
   panes: Pane[];
-  containerRef: React.RefObject<HTMLDivElement>;
+  containerRef: React.RefObject<HTMLDivElement | null>;
   idx?: number;
   setIdx?: React.Dispatch<React.SetStateAction<number>>;
 }) {
-  const { currentPane, fading, transitionMs, go } = useRotator({
+  const { currentPane, fading, transitionMs } = useRotator({
     panes,
     idx,
     setIdx,

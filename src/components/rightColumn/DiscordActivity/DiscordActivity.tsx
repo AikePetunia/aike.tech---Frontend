@@ -11,9 +11,7 @@ type ActivityKind = "spotify" | "code" | "obsidian" | "idle";
 type Pane = { kind: ActivityKind; node: React.ReactNode; key: string };
 
 export function DiscordActivity() {
-  // todo: add background image of activity instead of the black background
   const [data, setData] = useState<any | null>(null);
-  const [tick, setTick] = useState(0);
   const lastFetchTime = useRef<number>(Date.now());
 
   const fetchData = async () => {
@@ -29,8 +27,6 @@ export function DiscordActivity() {
   useEffect(() => {
     fetchData();
     const timer = setInterval(() => {
-      setTick((prev) => prev + 1);
-
       if (data?.spotify?.timestamps?.end) {
         const now = Date.now();
         // si termino la cancion, refetch
@@ -91,7 +87,7 @@ export function DiscordActivity() {
         kind: "code",
         key: `code:${code?.application_id ?? "vs"}`,
         node: (
-          <Code activity={code} emojiUrl={emojiUrl} statusText={statusText} />
+          <Code Activity={code} emojiUrl={emojiUrl} statusText={statusText} />
         ),
       });
     }
@@ -101,7 +97,7 @@ export function DiscordActivity() {
         key: `obsidian:${obsidian?.application_id ?? "obs"}`,
         node: (
           <Obsidian
-            activity={obsidian}
+            Activity={obsidian}
             emojiUrl={emojiUrl}
             statusText={statusText}
           />

@@ -119,7 +119,7 @@ function Rotator({
   idx?: number;
   setIdx?: React.Dispatch<React.SetStateAction<number>>;
 }) {
-  const { currentPane, fading, transitionMs, goToPane } = useRotator({
+  const { currentPane, fading, transitionMs } = useRotator({
     panes,
     idx,
     setIdx,

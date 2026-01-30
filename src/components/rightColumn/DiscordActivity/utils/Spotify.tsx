@@ -38,7 +38,10 @@ export function Spotify({
         <a href={`https://open.spotify.com/track/${spotify?.track_id || ""}`}>
           <img className="activity-image" src={albumArt} alt=""></img>
         </a>
-        <CustomStatus emojiUrl={emojiUrl} statusText={statusText} />
+        <CustomStatus
+          emojiUrl={emojiUrl ?? null}
+          statusText={statusText ?? null}
+        />
       </div>
       <div className="activity-container">
         <a href={`https://open.spotify.com/track/${spotify?.track_id}`}>

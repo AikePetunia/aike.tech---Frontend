@@ -1,8 +1,15 @@
 import { useEffect, useState } from "react";
 import { fetchWeather } from "../../../hooks/useWeather";
 import "./countryData.css";
+
+type weather = {
+  temperature_2m: number;
+  relative_humidity_2m: number;
+  time: string;
+};
+
 export function CountryData() {
-  const [weather, setWeather] = useState(null);
+  const [weather, setWeather] = useState<weather | null>(null);
 
   useEffect(() => {
     fetchWeather()
@@ -45,7 +52,7 @@ export function CountryData() {
           </div>
         </div>
       ) : (
-        <p>the api that i use (open-meteo) is currently broken ! sowy !</p>
+        <p>i can fail to fetch and that's fine. nothing to explode</p>
       )}
     </>
   );

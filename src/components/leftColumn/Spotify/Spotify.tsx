@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
 import {
-  fetchSpotifyPlaylists,
+  // fetchSpotifyPlaylists,
   SpotifyPlaylist,
 } from "../../../hooks/useSpotify";
 import localSpotifyData from "./spotifyHard.json";
 import "./Spotify.css";
 
+
+// the tokens of spotify works HORRENDOUSLY bad, so for now im just using local data. anyways i dont update my playlists that often
 export function Spotify() {
   const [playlists, setPlaylists] = useState<SpotifyPlaylist[]>([]);
 

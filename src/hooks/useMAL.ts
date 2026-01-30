@@ -40,8 +40,13 @@ export async function fetchAnimes(status: string = "completed") {
   const { getApiBase, getAuthHeaders } = await import("../config/api");
   const base = getApiBase();
 
+  const rawHeaders = getAuthHeaders();
+  const headers: Record<string, string> = {};
+  if (rawHeaders.Authorization) {
+    headers.Authorization = rawHeaders.Authorization;
+  }
   const response = await fetch(`${base}/api/mal/user/anime?status=${status}`, {
-    headers: getAuthHeaders(),
+    headers,
   });
   const data = await response.json();
   if (!response.ok) throw new Error(data?.error || "Error al obtener animes");

@@ -1,17 +1,17 @@
 import { formatTimeDisplay, resolveActivityImage } from "../../../../utils/discordUtils";
 import { CustomStatus } from "./CustomStatus";
 import type { Activity } from "../../../../types/discord";
-type Maybe<T> = T | null | undefined;
 
 interface CodeProps {
-  activity: Maybe<Activity>;
-  emojiUrl: Maybe<string>;
-  statusText: Maybe<string>;
+  Activity: Activity | null;
+  emojiUrl: string | null;
+  statusText: string | null;
 }
 
-export function Code({ activity, emojiUrl, statusText }: CodeProps) {
-  const appId = activity?.application_id ?? "";
-  const largeImg = resolveActivityImage(appId, activity?.assets?.large_image);
+
+export function Code({ Activity, emojiUrl, statusText }: CodeProps) {
+  const appId = Activity?.application_id ?? "";
+  const largeImg = resolveActivityImage(appId, Activity?.assets?.large_image);
 
   return (
     <>
@@ -19,17 +19,20 @@ export function Code({ activity, emojiUrl, statusText }: CodeProps) {
         <img
           className="activity-image"
           src={largeImg || undefined}
-          alt={activity?.details || ""}
+          alt={Activity?.details || ""}
         />
         {CustomStatus ? (
-          <CustomStatus emojiUrl={emojiUrl} statusText={statusText} />
+          <CustomStatus
+            emojiUrl={emojiUrl ?? null}
+            statusText={statusText ?? null}
+          />
         ) : null}
       </div>
       <div className="activity-container">
-        <h3 className="activity-detail ">{activity?.details}</h3>
-        <h6 className="activity-state ">{activity?.state}</h6>
+        <h3 className="activity-detail ">{Activity?.details}</h3>
+        <h6 className="activity-state ">{Activity?.state}</h6>
         <span className="activity-time ">
-          {formatTimeDisplay(activity?.timestamps?.start ?? undefined)}
+          {formatTimeDisplay(Activity?.timestamps?.start ?? undefined)}
         </span>
       </div>
     </>

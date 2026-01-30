@@ -1,23 +1,24 @@
 import { ReactNode, useEffect, useRef, useState } from "react";
 
-export type Pane = {
-  key: string;
-  node: ReactNode;
-};
-
-export function useRotator({
+export function useRotator<T extends { key: string; node: ReactNode }>({
   panes,
   idx,
   setIdx,
   showMs = 20000,
   fadeMs = 500,
 }: {
-  panes: Pane[];
+  panes: T[];
   idx?: number;
   setIdx?: React.Dispatch<React.SetStateAction<number>>;
   showMs?: number;
   fadeMs?: number;
-}) {
+}): {
+  currentPane: T | undefined;
+  fading: "in" | "out";
+  setIdx: React.Dispatch<React.SetStateAction<number>>;
+  idx: number;
+  transitionMs: number;
+} {
   const [fading, setFading] = useState<"in" | "out">("in");
   const [internalIdx, setInternalIdx] = useState(0);
   const timerRef = useRef<number | null>(null);

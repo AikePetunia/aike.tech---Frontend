@@ -13,13 +13,17 @@ type ApiErr = {
   error: { code: string; message: string; status: number };
 };
 
-type SteamDto = { games: SteamGame[] };
+export type SteamDto = { games: SteamGame[] };
 
 export async function fetchSteam(): Promise<SteamDto> {
   const { getApiBase, getAuthHeaders } = await import("../config/api");
   const base = getApiBase();
+  const rawHeaders = getAuthHeaders();
+  const headers = Object.fromEntries(
+    Object.entries(rawHeaders).filter(([_, v]) => typeof v === "string"),
+  ) as Record<string, string>;
   const res = await fetch(`${base}/api/steam/recent`, {
-    headers: getAuthHeaders(),
+    headers,
   });
 
   const text = await res.text();

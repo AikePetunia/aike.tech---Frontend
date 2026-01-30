@@ -8,9 +8,12 @@ import instagram from "./icons/ig.avif";
 import vrchat from "./icons/vr.ico";
 import twitter from "./icons/x.avif";
 
-export const ShowMedia = forwardRef<HTMLDivElement>((props, ref) => {
+export const ShowMedia = forwardRef<
+  HTMLDivElement,
+  React.HTMLAttributes<HTMLDivElement>
+>((props, ref) => {
   return (
-    <div className="showMediaContainer show" ref={ref}>
+    <div className="showMediaContainer show" ref={ref} {...props}>
       <div className="github-media-container">
         <a
           href="https://github.com/AikePetunia"

@@ -1,8 +1,9 @@
 import React from "react";
-import { fetchSteam } from "../../../hooks/useSteam";
+import { fetchSteam, SteamDto } from "../../../hooks/useSteam";
 import "./steam.css";
+
 export function CurrentlyPlaying() {
-  const [steamData, setSteamData] = React.useState(null);
+  const [steamData, setSteamData] = React.useState<SteamDto | null>(null);
 
   React.useEffect(() => {
     fetchSteam()

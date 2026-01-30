@@ -11,3 +11,4 @@ export interface Activity {
     start?: number | null;
   } | null;
 }
+

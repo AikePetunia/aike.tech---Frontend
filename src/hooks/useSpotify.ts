@@ -3,7 +3,7 @@ export type SpotifyPlaylist = {
   name: string;
   description: string;
   public: boolean;
-  images: Array<{ url: string; height: number; width: number }>;
+  images: { url: string; height: number | null; width: number | null }[];
   tracks: {
     total: number;
     href: string;
@@ -21,8 +21,13 @@ export async function fetchSpotifyPlaylists() {
   const { getApiBase, getAuthHeaders } = await import("../config/api");
   const base = getApiBase();
 
+  const rawHeaders = getAuthHeaders();
+  const headers = Object.fromEntries(
+    Object.entries(rawHeaders).filter(([_, v]) => typeof v === "string")
+  ) as Record<string, string>;
+
   const response = await fetch(`${base}/api/spotify/playlists`, {
-    headers: getAuthHeaders(),
+    headers,
   });
 
   const data = await response.json();
