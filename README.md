@@ -1,6 +1,6 @@
 ### The Best Website in the World
 
-<img width="1912" height="1069" alt="image" src="https://github.com/user-attachments/assets/6730d430-99a7-4401-8f35-8e93a46a05fb" />
+<img width="1695" height="909" alt="image" src="https://github.com/user-attachments/assets/4e9cf578-fca3-4857-a8b8-dcff7b38b7da" />
 
 <img width="415" height="923" alt="image" src="https://github.com/user-attachments/assets/4047608d-a943-4566-9e78-033d78a33805" />
 
@@ -15,4 +15,5 @@ If you think my website is cool, you can add the badge!
 This is my first time using typescript with react, and doing a "project" by myself in a long time. 
 
 Warning: this website has human errors.
+
 
