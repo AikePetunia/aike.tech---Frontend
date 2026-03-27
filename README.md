@@ -4,7 +4,7 @@
 
 <img width="415" height="923" alt="image" src="https://github.com/user-attachments/assets/4047608d-a943-4566-9e78-033d78a33805" />
 
-I really like the red, lmao.
+I really like red, lmao.
 
 If you think my website is cool, you can add the badge!
 
