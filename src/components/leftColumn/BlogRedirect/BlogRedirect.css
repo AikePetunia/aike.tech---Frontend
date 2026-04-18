@@ -1,4 +1,4 @@
-.letterbox-container {
+.blog-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,7 +8,7 @@
   transform: translate(-50%, -50%);
 }
 
-.letterbox-button {
+.blog-button {
   background-color: var(--glow-weak);
   border: none;
   color: white;
@@ -23,12 +23,12 @@
   transition-duration: 0.4s;
 }
 
-.letterbox-button:hover {
+.blog-button:hover {
   background-color: var(--glow-strong);
 }
 
 @media (max-width: 900px) {
-  .letterbox-container {
+  .blog-container {
     position: static;
     transform: none;
   }

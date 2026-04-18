@@ -1,4 +1,5 @@
 import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
 import App from "./sections/App";
 
 const root = ReactDOM.createRoot(
@@ -6,4 +7,8 @@ const root = ReactDOM.createRoot(
 );
 
 // saque strict mode
-root.render(<App />);
+root.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+  );

@@ -1,10 +1,16 @@
 import "./App.css";
 import RightColumn from "./rightColumn/RightColumn";
 import LeftColumn from "./leftColumn/LeftColumn";
+import { Routes, Route } from "react-router-dom"
+import Blog from "../pages/Blog"
+
 export function App() {
   return (
-    <>
-      <div className="parent-grid">
+    <Routes>
+      <Route 
+        path="/"
+        element={
+              <div className="parent-grid">
         <section className="left">
           <LeftColumn />
         </section>
@@ -12,7 +18,17 @@ export function App() {
           <RightColumn />
         </section>
       </div>
-    </>
+      }
+/>
+
+      
+              <Route
+        path="/blog"
+        element={
+        <Blog/>
+        }
+      />
+    </Routes>
   );
 }
 

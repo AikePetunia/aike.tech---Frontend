@@ -4,7 +4,7 @@ import { Spotify } from "../../components/leftColumn/Spotify/Spotify";
 import { Vrchat } from "../../components/leftColumn/Vrchat/Vrchat";
 import { CurrentlyPlaying } from "../../components/leftColumn/Steam/Steam";
 import { CountryData } from "../../components/leftColumn/CountryData/CountryData";
-import { LetterBox } from "../../components/leftColumn/Letterbox/LetterBox";
+import { BlogRedirect } from "../../components/leftColumn/BlogRedirect/BlogRedirect";
 import { Wakatime } from "../../components/leftColumn/Wakatime/Wakatime";
 import { Anime } from "../../components/leftColumn/Anime/Anime";
 
@@ -31,7 +31,7 @@ export default function LeftColumn() {
       {!isPhone && (
         <>
           <div className="letterbox-grid">
-            <LetterBox />
+            <BlogRedirect />
           </div>
           <div className="wakatime-grid">
             <Wakatime />
@@ -44,7 +44,7 @@ export default function LeftColumn() {
       {isPhone && (
         <div className="phone-left-spacing">
           <Wakatime />
-          <LetterBox />
+          <BlogRedirect />
         </div>
       )}
     </div>

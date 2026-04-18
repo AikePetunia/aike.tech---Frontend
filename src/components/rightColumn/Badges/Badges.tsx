@@ -18,6 +18,7 @@ import ublock from "./assets/ublock.avif";
 import zanarkand from "./assets/zanarkand.gif";
 import nika from "./assets/nika.avif";
 import myGif from "./assets/myWeb.gif";
+import wife from "./assets/WIFE.png"
 import "./badges.css";
 
 export function Badges() {
@@ -163,7 +164,10 @@ export function Badges() {
       </div>
       <div>
         <a href="https://maru.olcese.com.ar/" style={{color: "white"}}>
-        WIFE </a>
+          ♥
+          <img src={wife} alt="WIFE"></img>
+          ♥
+        </a>
           </div>
       <div className="webring-container">
         <h3>webring !</h3>
