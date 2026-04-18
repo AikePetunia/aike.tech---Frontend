@@ -53,7 +53,6 @@
   color: #ff0000;
 }
 
-/* Responsive styles */
 @media (max-width: 768px) {
   .playlist-item img {
     width: 5rem;

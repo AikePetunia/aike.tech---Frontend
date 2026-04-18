@@ -40,11 +40,12 @@ export function Spotify() {
                 />
               </a>
             )}
-            <div className="playlist-info">
-              <h4>{playlist.name}</h4>
-              <p>{playlist.description}</p>
-              <span>{playlist.tracks.total} songs</span>
-            </div>
+              <div className="playlist-info">
+                  <h4>{playlist.name}</h4>
+                <p>{playlist.description}</p>
+                <span>{playlist.tracks.total} songs</span>
+              </div>
+            
           </div>
         ))}
       </div>

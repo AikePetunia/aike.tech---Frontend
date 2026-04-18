@@ -7,6 +7,11 @@
   height: 99vh;
 }
 
+@media (max-width: 1360px) and (min-width: 110px) {
+  .left-grid {
+    height: 120vh;
+  }
+}
 .left-grid > div {
   padding: 12px;
   background: rgba(59, 1, 1, 0.25);

@@ -161,7 +161,10 @@ export function Badges() {
           ></img>
         </a>
       </div>
-
+      <div>
+        <a href="https://maru.olcese.com.ar/" style={{color: "white"}}>
+        WIFE </a>
+          </div>
       <div className="webring-container">
         <h3>webring !</h3>
         <div className="webring-links">
