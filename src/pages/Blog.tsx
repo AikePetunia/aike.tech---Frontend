@@ -18,19 +18,44 @@ export function Blog() {
 
     return (  
         <>
-            <div>
-            <Link to="/">
-                HOME
+            <div className="blg-bg">
+            <Link to="/" style={{color: "red"}}>
+                go home :3
             </Link>
-            {loading && <p>Loading !</p>}
-            {error && <p>{error}</p>}
+            </div>      
+
                 
-            <div>
+            <div className='blg-container'>
+
+          
+            {loading && <p>Loading !</p>}
+                {error && <p>{error}</p>}
+                
+
+                <div className="blg-intro">
+                    <div className='blg-intro-header'>
+                        <h2>My <i>online</i> world</h2>
+                        <h5>Blog</h5>
+                    </div>
+                    <p>
+                        Here, you will find projects, implementations, discoverys, readings, and some random thoughts. All made by myself and I'm proud of.
+                        <br />
+                        Open to talk about it and get better along the time by expressing myself. 
+                        <br />
+                        <small>for me its a big step, since i'm very afraid of mistakes.</small>
+                    </p>
+                </div>
+                
+                <div className="blg-intro-separator"></div>
+
+                {/* Json */}
+                <div className='blg-posts-container'>
                 {posts.map((post) => (
                     <BlogBox key={post.slug} post={post} />
                 ))}
                 </div>
-            </div>
+                </div>
+                
         </>
     )
 }

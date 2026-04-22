@@ -1,12 +1,134 @@
 [
   {
-    "title": "test title",
+    "title": "PostTitle",
     "slug": "test",
     "section": "project",
-    "category": "cat test",
-    "tags": ["lmao", "teteo"],
-    "cover": "/images/test.webp",
-    "excerpt": "test desc",
+    "category": "Category1, Category2, Category3",
+    "tags": ["tag1", "tag2", "tag3"],
+    "cover": "./eye.gif",
+    "excerpt": "This is a testing description for a project on the posts-index",
+    "publishedAt": "2026-04-20",
+    "draft": false
+  },
+    {
+    "title": "PostTitle",
+    "slug": "test",
+    "section": "project",
+    "category": "Category1, Category2, Category3",
+    "tags": ["tag1", "tag2", "tag3"],
+    "cover": "./eye.gif",
+    "excerpt": "This is a testing description for a project on the posts-index",
+    "publishedAt": "2026-04-20",
+    "draft": false
+  },
+  {
+    "title": "PostTitle",
+    "slug": "test",
+    "section": "project",
+    "category": "Category1, Category2, Category3",
+    "tags": ["tag1", "tag2", "tag3"],
+    "cover": "./eye.gif",
+    "excerpt": "This is a testing description for a project on the posts-index",
+    "publishedAt": "2026-04-20",
+    "draft": false
+  },
+  {
+    "title": "PostTitle",
+    "slug": "test",
+    "section": "project",
+    "category": "Category1, Category2, Category3",
+    "tags": ["tag1", "tag2", "tag3"],
+    "cover": "./eye.gif",
+    "excerpt": "This is a testing description for a project on the posts-index",
+    "publishedAt": "2026-04-20",
+    "draft": false
+  },
+  {
+    "title": "PostTitle",
+    "slug": "test",
+    "section": "project",
+    "category": "Category1, Category2, Category3",
+    "tags": ["tag1", "tag2", "tag3"],
+    "cover": "./eye.gif",
+    "excerpt": "This is a testing description for a project on the posts-index",
+    "publishedAt": "2026-04-20",
+    "draft": false
+  },
+  {
+    "title": "PostTitle",
+    "slug": "test",
+    "section": "project",
+    "category": "Category1, Category2, Category3",
+    "tags": ["tag1", "tag2", "tag3"],
+    "cover": "./eye.gif",
+    "excerpt": "This is a testing description for a project on the posts-index",
+    "publishedAt": "2026-04-20",
+    "draft": false
+  },
+  {
+    "title": "PostTitle",
+    "slug": "test",
+    "section": "project",
+    "category": "Category1, Category2, Category3",
+    "tags": ["tag1", "tag2", "tag3"],
+    "cover": "./eye.gif",
+    "excerpt": "This is a testing description for a project on the posts-index",
+    "publishedAt": "2026-04-20",
+    "draft": false
+  },
+  {
+    "title": "PostTitle",
+    "slug": "test",
+    "section": "project",
+    "category": "Category1, Category2, Category3",
+    "tags": ["tag1", "tag2", "tag3"],
+    "cover": "./eye.gif",
+    "excerpt": "This is a testing description for a project on the posts-index",
+    "publishedAt": "2026-04-20",
+    "draft": false
+  },
+  {
+    "title": "PostTitle",
+    "slug": "test",
+    "section": "project",
+    "category": "Category1, Category2, Category3",
+    "tags": ["tag1", "tag2", "tag3"],
+    "cover": "./eye.gif",
+    "excerpt": "This is a testing description for a project on the posts-index",
+    "publishedAt": "2026-04-20",
+    "draft": false
+  },
+  {
+    "title": "PostTitle",
+    "slug": "test",
+    "section": "project",
+    "category": "Category1, Category2, Category3",
+    "tags": ["tag1", "tag2", "tag3"],
+    "cover": "./eye.gif",
+    "excerpt": "This is a testing description for a project on the posts-index",
+    "publishedAt": "2026-04-20",
+    "draft": false
+  },
+  {
+    "title": "PostTitle",
+    "slug": "test",
+    "section": "project",
+    "category": "Category1, Category2, Category3",
+    "tags": ["tag1", "tag2", "tag3"],
+    "cover": "./eye.gif",
+    "excerpt": "This is a testing description for a project on the posts-index",
+    "publishedAt": "2026-04-20",
+    "draft": false
+  },
+  
+    {
+    "title": "PostTitle",
+    "slug": "test",
+    "section": "project",
+    "category": "Category1, Category2, Category3",
+    "tags": ["tag1", "tag2", "tag3"],
+    "cover": "./eye.gif",
+    "excerpt": "This is a testing description for a project on the posts-index",
     "publishedAt": "2026-04-20",
     "draft": false
   }

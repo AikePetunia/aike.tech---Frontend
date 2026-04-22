@@ -1,0 +1,40 @@
+
+.blg-container {
+    margin: 2% 15%;
+}
+
+.blg-bg {
+    background-color: rgb(0, 0, 0);
+      opacity:0.7;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index: -1;
+}
+
+
+.blg-intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.blg-intro-header {
+    justify-content: left;
+}
+
+.blg-intro-separator {
+    border: 1px solid rgb(95, 0, 0);
+    margin: 2rem 0;
+    width: 90%;
+}
+
+.blg-posts-container {
+    display: flex;
+    margin: 0 1%;
+    flex-direction: row;
+    gap: 16px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
