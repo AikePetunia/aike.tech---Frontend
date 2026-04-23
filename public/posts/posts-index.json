@@ -1,17 +1,17 @@
 [
   {
-    "title": "PostTitle",
+    "title": "PostTitle project project project projectprojectproject",
     "slug": "test",
     "section": "project",
     "category": "Category1, Category2, Category3",
-    "tags": ["tag1", "tag2", "tag3"],
-    "cover": "./eye.gif",
-    "excerpt": "This is a testing description for a project on the posts-index",
+    "tags": ["tag1", "tag2", "tag3", "tag1", "tag2", "tag3", "tag1", "tag2", "tag3"],
+    "cover": "./posts/images/vr1.avif",
+    "excerpt": "This is a testing description for a project on the posts-index.This is a testing description for a project on the posts-index.This is a testing description for a project on the posts-index.This is a testing description for a project on the posts-index.This is a testing description for a project on the posts-index",
     "publishedAt": "2026-04-20",
     "draft": false
   },
     {
-    "title": "PostTitle",
+    "title": "IM SORRY FOR THIS IM TESTING",
     "slug": "test",
     "section": "project",
     "category": "Category1, Category2, Category3",
@@ -38,7 +38,7 @@
     "section": "project",
     "category": "Category1, Category2, Category3",
     "tags": ["tag1", "tag2", "tag3"],
-    "cover": "./eye.gif",
+    "cover": "./posts/images/vr2.avif",
     "excerpt": "This is a testing description for a project on the posts-index",
     "publishedAt": "2026-04-20",
     "draft": false
@@ -60,7 +60,7 @@
     "section": "project",
     "category": "Category1, Category2, Category3",
     "tags": ["tag1", "tag2", "tag3"],
-    "cover": "./eye.gif",
+    "cover": "./posts/images/vr3.avif",
     "excerpt": "This is a testing description for a project on the posts-index",
     "publishedAt": "2026-04-20",
     "draft": false

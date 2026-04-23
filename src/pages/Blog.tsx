@@ -19,12 +19,16 @@ export function Blog() {
     return (  
         <>
             <div className="blg-bg">
-            <Link to="/" style={{color: "red"}}>
-                go home :3
-            </Link>
+ 
             </div>      
 
-                
+            <Link to="/" style={{ color: "red" }}>
+                <button className="blg-go-back-btn">
+                    <span className="blg-go-back-text">
+                        go home :3
+                   </span>
+                </button>
+            </Link>
             <div className='blg-container'>
 
           

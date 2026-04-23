@@ -3,6 +3,17 @@
     margin: 2% 15%;
 }
 
+@media (max-width: 758px) {
+    .blg-container {
+        margin: 10% 5% ;
+    }
+
+    .blg-go-back-btn {
+        margin-top: 24px;
+        margin-left: 4px;
+    }
+}
+
 .blg-bg {
     background-color: rgb(0, 0, 0);
       opacity:0.7;
@@ -14,6 +25,20 @@
     z-index: -1;
 }
 
+
+.blg-go-back-btn {
+    background-color: rgb(61, 0, 0);
+    border-radius: 4px;
+    z-index: 1000;
+    border: none;
+    padding: 8px;
+    margin-top: 24px;
+    margin-left: 4px;
+}
+
+.blg-go-back-text {
+    color: white;
+}
 
 .blg-intro {
     display: flex;
@@ -32,7 +57,6 @@
 
 .blg-posts-container {
     display: flex;
-    margin: 0 1%;
     flex-direction: row;
     gap: 16px;
     width: fit-content;
