@@ -11,6 +11,7 @@
     "@types/node": "^16.18.126",
     "@types/react": "^19.1.12",
     "@types/react-dom": "^19.1.9",
+    "commentbox.io": "^2.1.0",
     "counterapi": "^2.1.2",
     "front-matter": "^4.0.2",
     "gray-matter": "^4.0.3",
