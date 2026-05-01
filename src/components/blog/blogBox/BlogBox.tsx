@@ -21,7 +21,7 @@ export function BlogBox({ post }: Props) {
                     <div className="blgb-texts">
                         <h3>{post.title} {/*<p>{post.category}</p>*/}</h3>
                         <p>{post.excerpt}</p> 
-                        <small className="blgb-data">date: {post.publishedAt} - slug {post.slug}</small> 
+                        <small className="blgb-data">date: {post.publishedAt} - slug: {post.slug}</small> 
                     </div>
                     
                 </Link>

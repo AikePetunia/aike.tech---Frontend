@@ -1,4 +1,5 @@
-import commentBox from 'commentbox.io';
+
+// import commentBox from 'commentbox.io';
 
 export function BlogFooter() {
  // const commentBox('5739343649964032-proj')
@@ -12,3 +13,4 @@ export function BlogFooter() {
 }
 
 export default BlogFooter;
+

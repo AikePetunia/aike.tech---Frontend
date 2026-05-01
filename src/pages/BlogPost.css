@@ -79,31 +79,35 @@ font-family: 'JetBrains Mono', monospace;
   padding: 2px 5px;
 }
 
-.blg-post-content h1, h2, h3, h4, h5, h6 {
+.blg-post-content h1,
+.blg-post-content h2,
+.blg-post-content h3,
+.blg-post-content h4,
+.blg-post-content h5,
+.blg-post-content h6 {
   font-family: 'Orbitron', sans-serif;
-  color: #ff0000; 
+  color: #ff0000;
   text-transform: uppercase;
   letter-spacing: 2px;
   border-bottom: 1px solid #330000;
   margin-top: 2rem;
 }
-
 .blg-post-content img {
     width: fit-content;
     height: auto;
 }
 
 @media (max-width: 768px) {
-.blg-post-content {
-    width: 100%;
-    margin-left: 0;
-}
-.blg-post-container {
-     width: 110dvw;
-}
+  .blg-post-content {
+      width: 100%;
+      margin-left: 0;
+  }
+  .blg-post-container {
+      width: 110dvw;
+  }
 
-.blg-post-content  img {
-    width: 200px;
-}
+  .blg-post-content  img {
+      width: 200px;
+  }
 }
 

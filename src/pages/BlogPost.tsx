@@ -31,6 +31,13 @@ loadPostBySlug(section as "project" | "random", slug)
   return (
     <>
           <div className="blg-bg-onpost">          </div>      
+          <Link to="/blog" style={{ color: "red" }}>
+          <button className="blg-go-back-btn">
+              <span className="blg-go-back-text">
+                  go back :3
+             </span>
+          </button>
+      </Link>
       <Link to="/" style={{ color: "red" }}>
           <button className="blg-go-back-btn">
               <span className="blg-go-back-text">
@@ -38,9 +45,11 @@ loadPostBySlug(section as "project" | "random", slug)
              </span>
           </button>
       </Link>
+
       <div className="blg-post-container">
           <div className="blg-post-header">
-            <h1>{post.title}</h1>
+          <h1>{post.title}</h1>
+          <p>{post.excerpt}</p>
             <p>{post.category}</p>
           </div>
             <div className="blg-intro-separator"></div>

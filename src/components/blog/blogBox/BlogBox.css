@@ -24,6 +24,7 @@
 	height: 225px;
 	border-radius: 16px;
 	justify-content: center;
+	margin-bottom: 16px;
 }
 
 .blgb-tags {
@@ -48,7 +49,6 @@
 }
 .blgb-texts > h3 {
 	display: -webkit-box;
-    height: 46px;
 	font-size: 20px;
 	text-overflow: ellipsis;
 	-webkit-line-clamp: 2 !important;
