@@ -1,14 +1,18 @@
-
-// import commentBox from 'commentbox.io';
+import "./BlogFooter.css"
 
 export function BlogFooter() {
- // const commentBox('5739343649964032-proj')
-    
     return (
-        <footer>
+
+        <footer className="bf">
+            <br />
             <p>Opinions are my own. </p>
-            <div className="commentbox"></div>
-    </footer>
+            <div className="bf__see-more">
+                <span>wanna see more tech stuff about me? </span>
+                <a href="https://x.com/Aiketech">
+                     Click me 
+                </a>
+            </div>
+        </footer>
 )
 }
 

@@ -3,6 +3,7 @@ import { BlogBox } from "../components/blog/blogBox/BlogBox"
 import { useEffect, useState } from "react"
 import { loadPosts, type BlogPostJson } from "../hooks/loadBlogPost"
 import "./Blog.css"
+import BlogFooter from "./BlogFooter"
 
 export function Blog() {
     const [posts, setPosts] = useState<BlogPostJson[]>([])
@@ -58,8 +59,9 @@ export function Blog() {
                     <BlogBox key={post.slug} post={post} />
                 ))}
                 </div>
+                <BlogFooter />
+
                 </div>
-                
         </>
     )
 }

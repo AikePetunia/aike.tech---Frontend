@@ -1,0 +1,14 @@
+.bf {
+    display: block;
+    margin-top: 32px;
+}
+.bf__see-more {
+    display: flex;
+    text-align: center;
+}
+
+.bf__see-more > a {
+    color: red;
+    text-decoration: underline solid red 1px;
+    margin-left: 6px;
+}

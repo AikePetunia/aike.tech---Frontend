@@ -5,7 +5,7 @@ export function BlogRedirect() {
     <>
       <div className="blog-container">
         <Link to="/blog">
-          <button className="blog-button">Cooming soon</button>
+          <button className="blog-button">Blog</button>
         </Link>
       </div>
     </>

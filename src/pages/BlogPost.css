@@ -103,7 +103,8 @@ font-family: 'JetBrains Mono', monospace;
       margin-left: 0;
   }
   .blg-post-container {
-      width: 110dvw;
+      width: 90dvw;
+      margin-left: 16px;
   }
 
   .blg-post-content  img {

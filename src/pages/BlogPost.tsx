@@ -55,9 +55,12 @@ loadPostBySlug(section as "project" | "random", slug)
             <div className="blg-intro-separator"></div>
           <div className='blg-post-content'>
             <ReactMarkdown remarkPlugins={[remarkGfm]}>{post.content}</ReactMarkdown>
-          </div>
-      </div>
+        </div>
+    <br />
+    <br />
+
       <BlogFooter />
+      </div>
     </>
   )
 }
