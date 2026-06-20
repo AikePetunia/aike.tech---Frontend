@@ -8,8 +8,8 @@ export function BlogFooter() {
             <p>Opinions are my own. </p>
             <div className="bf__see-more">
                 <span>wanna see more tech stuff about me? </span>
-                <a href="https://x.com/Aiketech">
-                     Click me 
+                <a href="#">
+                     not yet -.-
                 </a>
             </div>
         </footer>
