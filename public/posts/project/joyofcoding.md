@@ -10,18 +10,18 @@ language: "en"
 publishedAt: "2026-04-20"
 draft: false
 ---
-Desde el lanzamiento de chatgpt 3.0, hizo boom! golpeando la psique de toda la generacion x demasiado rapido, cambiando la cabeza de **mucha gente sobre que quieren hacer en su vida**
+Desde el lanzamiento de chatgpt 3.0, hizo boom! golpeando la psique de toda la generación x demasiado rápido, cambiando la cabeza de **mucha gente sobre que quieren hacer en su vida**
 
 Hoy en día, el 62% de gente utiliza inteligencia artificial para su día a día; hacer una receta, la tarea, usarlo de Wikipedia para un vídeo juego, para hablar de la vida, etc, todo esto usando el plan gratuito.
 
 El “Googlear” que se solía usar, ahora también paso a ser prompting (Respuestas de IA en preguntas). 
 El buscar respuestas en *Brain.ly* no existe más. 
 El uso de stackoverflow es escaso.
-El ver wikipedia para saber algo de una personaje ficticio no es la primera opcion.
+El ver wikipedia para saber algo de una personaje ficticio no es la primera opción.
 El editar una foto para un meme no existe mas.
 El **no** perder tiempo investigando se acabó.
 
-La diversión de la dificultad de obtener una respuesta o obtener resultados legítimos através de trozos de información sueltos en internet, o del mismo pensamiento critico, no es más una primera opcion, y la gran mayoría de gente se perdió acá.
+La diversión de la dificultad de obtener una respuesta o obtener resultados legítimos a través de trozos de información sueltos en internet, o del mismo pensamiento critico, no es más una primera opción, y la gran mayoría de gente se perdió acá.
 
 Siendo este último, un punto de quiebre. Pero, ¿Por qué planteo esto?
 
@@ -31,7 +31,7 @@ En la afición y hobbies de muchos, importa ***EL PROCESO DE APRENDIZAJE***  sie
 
 Con este primer post de mi Blog, simplemente intento sumar y estar al tanto del debate de que si la IA va a reemplazar sectores. 
 
-Preguntemosle a Gemini:
+Preguntemos a Gemini:
 
 >  ¿Qué es programar? ¿Cuál es la diversión del mismo? Se breve:
 ### `¿Qué es programar?`
@@ -75,26 +75,20 @@ Quizá esto no es nada malo, hace que surjan buenas ideas que cubren necesidades
 ##### 3. "El problema es que funciona".
 Recuerdo cuando la IA era solo un chat estático: recibía texto y devolvía una respuesta, nada más. Poco a poco, su capacidad se expandió: empezó a procesar imágenes, archivos complejos y a manejar contextos 'monstruosos', permitiéndole leer PDFs extensos y realizar conexiones que antes parecían de ciencia ficción.
 
-Luego llegaron los asistentes a los IDEs con autocompletados que rayaban en lo mágico y chats integrados capaces de resolver problemas complejos con una precisión asombrosa. Finalmente, aparecieron las IA agénticas, capaces de trabajar de forma autónoma hasta obtener el resultado final. Al principio, se discutía mucho sobre sus vulnerabilidades, pero hoy ese debate ha quedado en segundo plano. La pregunta ya no es si la IA funciona o es segura, sino si estamos presenciando el **fin de la era de los programadores.**
-
-también me resulta gracioso a mi personalmente el marketing que hay al rededor de eso, y parece poco más una dictadura, la campaña es la del miedo del gobierno limitando lo que puede hacer el usuario, como Feable o Mythos. Funny.
+Luego llegaron los asistentes a los IDEs con autocompletados que predecían mágicamente y chats integrados capaces de resolver problemas complejos con una precisión asombrosa. Finalmente, aparecieron las IA agénticas, capaces de trabajar de forma autónoma hasta obtener el resultado final. Al principio, se discutía mucho sobre sus vulnerabilidades, pero hoy ese debate ha quedado en segundo plano. La pregunta ya no es si la IA funciona o es segura, sino si estamos presenciando el **fin de la era de los programadores,** y esto plantea *(inconcientemente)* si seguiremos programando el día de mañana, ya que es algo que le gusta al ambiente capitalista *algo funcional, rápido y barato*, en cambio un humano que, bueno programa a mano, siendo *caro, lento y a largo plazo funcional*.
 ##### 4. Las universidades. La escena competitiva
-No estoy graduada de la universidad, tampoco soy una tech lead con 25+años de exp. Pero puedo opinar. Si hay algo que me empezó a romper la cabeza desde que empecé a trabajar  y con el avance del tiempo, era lo distante lo que era el ambiente de trabajo de cómo te enseñaban a  programar en la universidad.
+No estoy graduada de la universidad, tampoco soy una tech lead con 25+años de exp. Pero puedo opinar. Si hay algo que me empezó a romper la cabeza desde que empecé a trabajar y con el avance del tiempo, era lo distante lo que era el ambiente de trabajo de cómo te enseñaban a  programar en la universidad.
 
-La compracion en su día era: papel vs IDE. 
-Ahora es papel vs ia + IDE + Otros.
+```
+La comparación en su día era: papel vs IDE + compilador. 
+La comparación actualmente es: papel vs IA + IDE + compilador + Otros.
+```
 
 Siento que las tecnologías avanzaron hoy en día pero hay algo que no avanzó y en este caso es la universidad, no puede ser que una comparación no haya evolucionado por ambos lados.
 
-y eso haya evolucionado de uno que es de el mundo real en sí sin embargo Los pilares van a seguir siendo los mismos digamos nunca van a cambiar sería literalmente si cambiasen los fundamentos del día de mañana la ya primero que quedaría obsoleta porque justamente se fundó bajo unos ciertos fundamentos y me parece súper obvio y no quiero mencionar tanto el tema de los fundamentos porque una persona que sabe de programación tiene bastante en claro qué son los fundamentos Y por qué sirven.
-En uno tenías que implementar una feature, arreglar bugs, deployar, testear, etc
-
+Pero esto no es malo, es bastante entendible que la universidad 
 #### 5. La respuesta de la gente.
-este punto anteriormente no lo había agregado sin embargo algo que había visto hace poquito fue de como en una graduación de universidades habló el ceo de Google para dar un discurso digamos ese discurso recomendaba y hablaba sobre la guía de que era una herramienta queda súper útil que la hayan acompañar y estudiar y ayudar etcétera y lógicamente esto a los estudiantes no les ha dado porque digamos una ia hoy en día lo que hace sustituir o darle un senior a un programador señor a un Junior que tiene un control absoluto y es pagar mucho menos permitiendo que esa gente recién graduada sin experiencia prueba nunca pueda entrar al mercado laboral y es lógico además quiero hacer énfasis en que la gente extraña lo artesanal de ir a un libro ir a una biblioteca juntarse con los amigos tener que pensar una respuesta Y quizá preguntarle a los profes si era correcto o no hoy en día todo eso lo puede hacer uno desde casa con su computadora el PDF al lado y ya está siendo súper rápido Y quizá efectivo pero no humano
-
-
-
-sin embargo que hay un punto que me toca bastante que es el hecho de los trabajos artesanales en sí tú empiezas a programar justamente porque lo que a mí me gustaba de programar era plantear un problema de llevarlo a cabo teniendo en cuenta todos los procesos que tenían y hacerlos todos por mi propia cuenta y compararlos con el resto digamos era divertido y ver a una crítica hacia uno mismo para mejorar y pensar mejor el día de mañana realmente es algo asombroso hoy en día no no es así y ese trabajo Arsenal en artesanal en sí no no existe más por el simple hecho de que mi amor uno plantea un problema y a lo mejor leía de tantos datos que comió ya sé cómo resolver ese problema y a lo mejor tú lo hacen los palos Y vos planteaste quizás el problema y ya está uno trata de antes uno conectada cables y los ataba Y creaba el cable y llevaba todo a cabo hoy en día uno piensa crea pregunta y hace a una ia y solamente conecta algún que otro cable si es algo no tan complejo sin embargo hay algo que acá llama mucho la atención y es que por ejemplo te piden y te exigen muchos fundamentos y es raro porque es como bien sé los fundamentos se programaron pero no hay una práctica en sí porque cuando uno está haciendo la práctica real de artesano digamos siente que se queda atrás porque digamos el día de mañana en un trabajo sí o sí vas a usar y a genéticas que te van a hacer mucho el trabajo artesanal que ya supiste hacer y sentí que te estás preparando como para uno mismo pero no para el trabajo real entonces es muy raro
+---
 Concluyó en que:
 Cuando usarla? es útil si es una duda específica? cómo se que si estoy haciendo algo artesanal, sigue siendo artesanal si consulto algo a la ia?
 
@@ -104,5 +98,3 @@ Y la diversión algo artesanal.
 Hay mucha gente con un potencial creativo increíble y no pueden expresarlo por que están tan ocupados ganándose la vida.
 
 "Maybe people can't realize their creative potential, because they're busy earning a living"
-
-# This article isn't finished yet. But this is a big part of it.
