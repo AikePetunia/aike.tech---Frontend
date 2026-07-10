@@ -1,13 +1,13 @@
 [
   {
-    "title": "The joy of coding",
+    "title": "La diversión de programar",
     "slug": "joyofcoding",
     "section": "project",
     "category": "",
-    "tags": ["self-talk", "opinion"],
+    "tags": ["opinion", "español", "coding", "IA"],
     "cover": "./posts/images/joy.jpg",
-    "excerpt": "Since 2022 nothing has been like before.",
-    "publishedAt": "2026-04-20",
+    "excerpt": "Desde 2022 jamás volvio a ser lo mismo.",
+    "publishedAt": "2026-07-10",
     "draft": false
   }
 ]
