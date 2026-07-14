@@ -29,6 +29,8 @@
 }
 
 .log-button { 
+margin: 2px 2px 0px 2px;
+
       background-color: var(--glow-weak);
     border: none;
     color: white;

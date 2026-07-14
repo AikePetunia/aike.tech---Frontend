@@ -61,6 +61,10 @@ export function Profile() {
         <button className="log-button" onClick={() => setShowLog(true)}>
           <span> LOG </span>
         </button>
+        {" "}
+        <a href="https://yapping-chat.onrender.com/" className="yap-chat" rel="noreferrer" target="_blank"> 
+          <button className="log-button"> <span> yap chat</span></button>
+        </a>
       </div>
       <Log isOpen={showLog} onClose={() => setShowLog(false)} />
       <div className="name-container">
