@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect,  useState } from "react";
 import meImage from "../../../assets/me.jpg";
 import bdIcon from "../../../assets/bdIcon.gif";
 import eye from "../../../assets/eye.gif";
@@ -14,23 +14,7 @@ export function Profile() {
   const [isShown, setIsShown] = useState(false);
   const [showLog, setShowLog] = useState(false);
   const [totalTimeAlive, setTotalTimeAlive] = useState("");
-  const mediaContainerRef = useRef<HTMLDivElement>(null);
-  useEffect(() => {
-    if (mediaContainerRef.current) {
-      if (isShown) {
-        mediaContainerRef.current.style.display = "block";
-        void mediaContainerRef.current.offsetHeight;
-        mediaContainerRef.current.classList.add("show");
-      } else {
-        mediaContainerRef.current.classList.remove("show");
-        setTimeout(() => {
-          if (mediaContainerRef.current && !isShown) {
-            mediaContainerRef.current.classList.add("hide");
-          }
-        }, 200);
-      }
-    }
-  }, [isShown]);
+  
 
   // js date is weird
   // gets de % of the year passed since last birthday
@@ -87,7 +71,7 @@ export function Profile() {
             <div className="spider-leg8"> </div>
           </div>
         </div>
-        <ShowMedia ref={mediaContainerRef} />
+        <ShowMedia />
       </div>
       <Countdown icon={bdIcon} count={totalTimeAlive} />
       <DiscordActivity />

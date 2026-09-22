@@ -11,9 +11,9 @@ import twitter from "./icons/x.avif";
 export const ShowMedia = forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
->((props, ref) => {
+>(() => {
   return (
-    <div className="showMediaContainer show" ref={ref} {...props}>
+    <div className="showMediaContainer show" >
       <div className="github-media-container">
         <a
           href="https://github.com/AikePetunia"

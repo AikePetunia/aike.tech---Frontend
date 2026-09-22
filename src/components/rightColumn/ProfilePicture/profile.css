@@ -63,7 +63,6 @@ margin: 2px 2px 0px 2px;
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  cursor: pointer;
   position: relative;
   transition: transform 0.1s ease;
 }
@@ -99,14 +98,7 @@ margin: 2px 2px 0px 2px;
   }
 }
 
-.profile-photo:hover {
-  transform: scale(1.02);
-}
 
-.profile-photo:hover::before,
-.profile-photo:hover::after {
-  animation-duration: 3s;
-}
 
 .spider-body {
   position: absolute;
