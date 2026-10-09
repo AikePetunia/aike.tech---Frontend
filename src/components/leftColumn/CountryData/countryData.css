@@ -17,12 +17,7 @@
 }
 
 .weather-location {
-  background: linear-gradient(
-    90deg,
-    rgba(155, 42, 42, 1) 0%,
-    rgba(255, 255, 255, 1) 50%,
-    rgba(83, 137, 237, 1) 100%
-  );
+  background:  rgb(59, 59, 59) 0%;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
