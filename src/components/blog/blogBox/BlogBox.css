@@ -1,7 +1,7 @@
 .blgb-container {
 	display: flex;
 	flex-direction: column;
-	border: 1px solid red;
+	border: 1px solid var(--muted);
 	background-color: black;
 	border-radius: 12px;
 	width: 400px;

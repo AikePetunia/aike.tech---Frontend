@@ -1,29 +1,25 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import type { MouseEvent } from "react";
+import { createPortal } from "react-dom";
 import imageSrc from "./backgrounds/stack.avif";
 export function Stack() {
   const [isVisible, setIsVisible] = useState(false);
   const [coords, setCoords] = useState({ x: 0, y: 0 });
 
-  useEffect(() => {
-    if (!isVisible) return;
-    const handleMouseEnter = (event: MouseEvent) => {
-      setCoords({ x: event.clientX, y: event.clientY });
-    };
-
-    window.addEventListener("mouseenter", handleMouseEnter);
-    return () => {
-      window.removeEventListener("mouseenter", handleMouseEnter);
-    };
-  }, [isVisible]);
+  const followMouse = (event: MouseEvent) => {
+    setCoords({ x: event.clientX, y: event.clientY });
+  };
 
   return (
     <>
-      {isVisible && (
+      {isVisible &&
+        createPortal(
         <img
           src={imageSrc}
           alt="archbtw"
           style={{
-            position: "absolute",
+            position: "fixed",
+            zIndex: 1000,
             top: coords.y + 25,
             left: coords.x + 50,
             pointerEvents: "none",
@@ -32,12 +28,17 @@ export function Stack() {
             borderRadius: "8px",
             transition: "transform 0.1s ease-out",
           }}
-        />
+        />,
+        document.body,
       )}
       <h3>My Stack</h3>
       <p
         style={{ fontSize: "12px" }}
-        onMouseEnter={() => setIsVisible(true)}
+        onMouseEnter={(event) => {
+          followMouse(event);
+          setIsVisible(true);
+        }}
+        onMouseMove={followMouse}
         onMouseLeave={() => setIsVisible(false)}
       >
         arch btw

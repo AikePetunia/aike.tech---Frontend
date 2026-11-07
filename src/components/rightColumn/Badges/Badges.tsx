@@ -150,7 +150,7 @@ export function Badges() {
           href="https://aike.tech"
           style={{
             filter:
-              "drop-shadow(0 0 8px #ff0000) drop-shadow(0 0 16px #ff0000)",
+              "drop-shadow(0 0 8px var(--glow-strong)) drop-shadow(0 0 16px var(--glow-strong))",
           }}
         >
           <img

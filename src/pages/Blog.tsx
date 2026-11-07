@@ -8,14 +8,14 @@ import BlogFooter from "./BlogFooter"
 export function Blog() {
     const [posts, setPosts] = useState<BlogPostJson[]>([])
     const [loading, setLoading] = useState(true)
-    const [error, setError] = useState(true)
+    const [error, setError] = useState("")
 
     useEffect(() => {
         loadPosts()
             .then(setPosts)
             .catch((e) => setError(e.message))
         .finally(() => setLoading(false))
-    })
+    }, [])
 
     return (  
         <>
@@ -23,7 +23,7 @@ export function Blog() {
  
             </div>      
 
-            <Link to="/" style={{ color: "red" }}>
+            <Link to="/" style={{ color: "var(--primary)" }}>
                 <button className="blg-go-back-btn">
                     <span className="blg-go-back-text">
                         go home :3

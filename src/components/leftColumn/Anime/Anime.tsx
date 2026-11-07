@@ -23,9 +23,9 @@ export function Anime() {
             )}
             <div className="anime-info">
               <h4>{item.node.title}</h4>
-              {item.list_status?.score && <p> {item.list_status.score}/10</p>}
-              {item.node.mean && <p> {item.node.mean}/10</p>}
-              {item.node.num_episodes && <p>{item.node.num_episodes}</p>}
+              {!!item.list_status?.score && <p> {item.list_status.score}/10</p>}
+              {!!item.node.mean && <p> {item.node.mean}/10</p>}
+              {!!item.node.num_episodes && <p>{item.node.num_episodes}</p>}
               {item.list_status?.status && <p> {item.list_status.status}</p>}
               {item.node.genres && (
                 <p>{item.node.genres.map((g) => g.name).join(", ")}</p>

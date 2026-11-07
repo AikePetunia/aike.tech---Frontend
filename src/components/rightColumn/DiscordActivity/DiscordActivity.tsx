@@ -15,28 +15,31 @@ export function DiscordActivity() {
   const lastFetchTime = useRef<number>(Date.now());
 
   const fetchData = async () => {
+    lastFetchTime.current = Date.now();
     try {
       const json = await fetchLanyard();
       setData(json.data);
-      lastFetchTime.current = Date.now();
     } catch (error) {
       console.error("Error fetching Discord activity:", error);
     }
   };
 
+  const songEnd: number | undefined = data?.spotify?.timestamps?.end;
+
   useEffect(() => {
     fetchData();
     const timer = setInterval(() => {
-      if (data?.spotify?.timestamps?.end) {
-        const now = Date.now();
-        // si termino la cancion, refetch
-        if (now > data.spotify.timestamps.end + 3000) fetchData();
-        // si no cada 1min
-        if (now - lastFetchTime.current > 60000) fetchData();
+      const now = Date.now();
+      const sinceLastFetch = now - lastFetchTime.current;
+      // si termino la cancion, refetch
+      const songEnded = songEnd !== undefined && now > songEnd + 3000;
+      // si no cada 1min
+      if (sinceLastFetch > 60000 || (songEnded && sinceLastFetch > 5000)) {
+        fetchData();
       }
     }, 1000);
     return () => clearInterval(timer);
-  }, [data?.spotify?.timestamps?.end]);
+  }, [songEnd]);
 
   const dsStatus = data?.discord_status || "";
   const dsSpotify = data?.spotify || null;

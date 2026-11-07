@@ -27,7 +27,7 @@
 
 
 .blg-go-back-btn {
-    background-color: rgb(61, 0, 0);
+    background-color: rgb(42, 42, 42);
     border-radius: 4px;
     z-index: 1000;
     border: none;
@@ -50,7 +50,7 @@
 }
 
 .blg-intro-separator {
-    border: 1px solid rgb(95, 0, 0);
+    border: 1px solid rgb(95, 95, 95);
     margin: 2rem 0;
     width: 90%;
 }

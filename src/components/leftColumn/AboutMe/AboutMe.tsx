@@ -6,10 +6,11 @@ import { WhoAmI } from "./WhoAmI";
 
 import "./aboutMe.css";
 import { useCarousel } from "../../../hooks/useTouchSwipe";
+import { useIsPhone } from "../../../hooks/useIsPhone";
 import type { Pane } from "../../../types/pane";
 
 export function AboutMe() {
-  const isPhone = window.innerWidth <= 768;
+  const isPhone = useIsPhone(768);
   const panes: Pane[] = useMemo(() => {
     const list: Pane[] = [];
     list.push({

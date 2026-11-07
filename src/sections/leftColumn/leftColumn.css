@@ -1,15 +1,24 @@
 .left-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 0.5fr 1.5fr 1.9fr;
-  grid-template-rows: 1fr 2fr 0.7fr 1fr;
+  grid-template-rows: repeat(4, auto);
+  align-content: start;
   grid-column-gap: 12px;
   grid-row-gap: 12px;
-  height: 99vh;
 }
 
-@media (max-width: 1360px) and (min-width: 110px) {
-  .left-grid {
-    height: 120vh;
+@media (min-width: 901px) {
+  /* rows follow their content, about me fills them and scrolls inside */
+  .left-grid .about-me-grid {
+    contain: size;
+  }
+
+  .left-grid .letterbox-grid,
+  .left-grid .wakatime-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 72px;
   }
 }
 

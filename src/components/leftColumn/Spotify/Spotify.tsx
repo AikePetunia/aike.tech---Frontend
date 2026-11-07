@@ -21,6 +21,26 @@ export function Spotify() {
       */
   }, []);
 
+  // saved cover urls expire, oembed gives the current one and needs no token
+  async function refreshCover(playlist: SpotifyPlaylist) {
+    try {
+      const url = encodeURIComponent(playlist.external_urls.spotify);
+      const res = await fetch(`https://open.spotify.com/oembed?url=${url}`);
+      if (!res.ok) return;
+      const { thumbnail_url: cover } = await res.json();
+      if (!cover || cover === playlist.images[0].url) return;
+      setPlaylists((current) =>
+        current.map((item) =>
+          item.id === playlist.id
+            ? { ...item, images: [{ ...item.images[0], url: cover }] }
+            : item,
+        ),
+      );
+    } catch (error) {
+      console.error("Error refreshing playlist cover:", error);
+    }
+  }
+
   return (
     <>
       <h4>My playlists ! &gt;&lt; </h4>
@@ -36,6 +56,7 @@ export function Spotify() {
                 <img
                   src={playlist.images[0].url}
                   alt={playlist.name}
+                  onError={() => refreshCover(playlist)}
                   style={{ width: 120, height: 120, objectFit: "cover" }}
                 />
               </a>

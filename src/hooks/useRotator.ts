@@ -43,23 +43,20 @@ export function useRotator<T extends { key: string; node: ReactNode }>({
     // only use one there is more than one pane
     if (panes.length <= 1) return;
 
-    const startVisiblePhase = () => {
+    // restarts on every pane change, so manual navigation gets a full showMs
+    setFading("in");
+    timerRef.current = window.setTimeout(() => {
+      setFading("out");
       timerRef.current = window.setTimeout(() => {
-        setFading("out");
-        timerRef.current = window.setTimeout(() => {
-          activeSetIdx((i) => (i + 1) % panes.length);
-          setFading("in");
-          startVisiblePhase();
-        }, fadeMs);
-      }, showMs);
-    };
+        activeSetIdx((i) => (i + 1) % panes.length);
+      }, fadeMs);
+    }, showMs);
 
-    startVisiblePhase();
     return () => {
       if (timerRef.current) window.clearTimeout(timerRef.current);
       timerRef.current = null;
     };
-  }, [panes.length, showMs, fadeMs, activeSetIdx]);
+  }, [panes.length, showMs, fadeMs, activeSetIdx, effectiveIdx]);
 
   return {
     currentPane: current,

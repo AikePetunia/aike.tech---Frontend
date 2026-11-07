@@ -8,7 +8,7 @@
 }
 
 .bf__see-more > a {
-    color: red;
-    text-decoration: underline solid red 1px;
+    color: var(--primary);
+    text-decoration: underline solid var(--primary) 1px;
     margin-left: 6px;
 }

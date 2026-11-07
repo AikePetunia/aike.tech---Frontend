@@ -19,7 +19,7 @@ export type BlogPost = BlogPostJson & {
 
 // json for not loading a dump of .md in the future
 export async function loadPosts(): Promise<BlogPostJson[]> {
-    const res = await fetch("./posts/posts-index.json")
+    const res = await fetch("/posts/posts-index.json")
     if (!res.ok) throw new Error("posts index not found");
     const posts = (await res.json()) as BlogPostJson[]
 

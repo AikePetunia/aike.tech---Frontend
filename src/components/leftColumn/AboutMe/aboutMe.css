@@ -42,7 +42,7 @@
 
 .left-button:hover .arrow,
 .right-button:hover .arrow {
-  fill: #ff4757; 
+  fill: var(--primary); 
 }
 
 .left-button, .right-button {

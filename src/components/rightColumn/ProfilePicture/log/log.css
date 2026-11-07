@@ -18,7 +18,7 @@
 
 .log-container {
     padding: 12px;
-    background: rgba(59, 1, 1, 0.25);
+    background: rgba(40, 40, 40, 0.25);
     border-radius: 16px;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(20px);

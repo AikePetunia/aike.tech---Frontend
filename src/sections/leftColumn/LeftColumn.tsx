@@ -7,9 +7,10 @@ import { CountryData } from "../../components/leftColumn/CountryData/CountryData
 import { BlogRedirect } from "../../components/leftColumn/BlogRedirect/BlogRedirect";
 import { Wakatime } from "../../components/leftColumn/Wakatime/Wakatime";
 import { Anime } from "../../components/leftColumn/Anime/Anime";
+import { useIsPhone } from "../../hooks/useIsPhone";
 
 export default function LeftColumn() {
-  const isPhone = window.innerWidth <= 850;
+  const isPhone = useIsPhone(850);
 
   return (
     <div className="left-grid">

@@ -15,6 +15,10 @@ export function BlogPost() {
   useEffect(() => {
     if (!section || !slug) return
 
+    setLoading(true)
+    setError("")
+    setPost(null)
+
 loadPostBySlug(section as "project" | "random", slug)
   .then(setPost)
   .catch((e: unknown) => setError(e instanceof Error ? e.message : String(e)))
@@ -31,14 +35,14 @@ loadPostBySlug(section as "project" | "random", slug)
   return (
     <>
           <div className="blg-bg-onpost">          </div>      
-          <Link to="/blog" style={{ color: "red" }}>
+          <Link to="/blog" style={{ color: "var(--primary)" }}>
           <button className="blg-go-back-btn">
               <span className="blg-go-back-text">
                   go back :3
              </span>
           </button>
       </Link>
-      <Link to="/" style={{ color: "red" }}>
+      <Link to="/" style={{ color: "var(--primary)" }}>
           <button className="blg-go-back-btn">
               <span className="blg-go-back-text">
                   go home :3
